@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(cbTint.isChecked()){
                     // Checked so set some tint
-                    imageView.setColorFilter(Color.argb(150,255,0,0));
+                    imageView.setColorFilter(Color.argb(150,155,0,155));
                 }else{
                     // No tint needed
                     imageView.setColorFilter(Color.argb(0,0,0,0));
